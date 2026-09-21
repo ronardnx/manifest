@@ -1,6 +1,15 @@
 # PenguinOS
 
 PenguinOS is an Android distribution based on [Paranoid Android](https://github.com/AOSPA).
+This manifest contains Project PenguinOS CLO for OnePlus 13R/Ace5.
+
+## Device Specific Features
+
+For device specific features, the following commits must be merged:
+- https://github.com/AOSPA/android_packages_apps_Settings/commit/1ac1a658f66f10ba77bbde22b4c2fb6ce0c79b3b
+- https://github.com/AOSPA/android_packages_apps_Settings/commit/cec0d825c4f88918a19553031f22a0d9c121d255
+- https://github.com/DerpFest-AOSP/android_frameworks_base/commit/18e6d309997b19f59655ac140d210a02fd351fa0
+- https://github.com/aosp-for-giulia/derp_android_packages_apps_Settings/commit/e2947326eab02ce1cf0aeded57822992fd891c32
 
 ## Set up your machine
 
@@ -46,7 +55,7 @@ Initialize the manifest repository:
 > Configure your real name and email address in Git before you initialize Repo if you plan to submit patches.
 
 ```bash
-repo init -u https://github.com/Project-PenguinOS/manifest -b celerity
+repo init -u https://github.com/ronardnx/manifest -b celerity
 ```
 
 ### Download the source tree
