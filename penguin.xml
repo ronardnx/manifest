@@ -9,7 +9,7 @@
   <remove-project name="platform/build/release" />
   <project path="build/release" name="Project-PenguinOS/android_build_release" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="Project-PenguinOS/build_soong" remote="penguin" revision="celerity">
+  <project path="build/soong" name="ronardnx/penguin_build_soong" remote="github" revision="celerity">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -29,6 +29,8 @@
   <!-- Hardware -->
   <remove-project name="AOSPA/android_hardware_interfaces" />
   <project path="hardware/interfaces" name="Project-PenguinOS/hardware_interfaces" remote="penguin" revision="celerity" />
+  <remove-project name="AOSPA/android_device_qcom_common" />
+  <project path="device/qcom/common" name="ronardnx/penguin_device_qcom_common" remote="github" revision="celerity" />
 
   <!-- Modules -->
   <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
@@ -82,7 +84,7 @@
 
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="Project-PenguinOS/android_vendor_aospa" remote="penguin" revision="celerity">
+  <project path="vendor/aospa" name="ronardnx/penguin_vendor_aospa" remote="github" revision="celerity">
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/custom-preference" name="Project-PenguinOS/vendor_custom-preference" remote="penguin" revision="celerity" />
@@ -90,5 +92,9 @@
   <project path="vendor/gms" name="PenguinOS/android_vendor_gms" remote="codeberg" revision="celerity" clone-depth="1" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="Project-PenguinOS/android_vendor_qcom_opensource_core-utils-vendor" remote="penguin" revision="celerity" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="Project-PenguinOS/vendor_qcom_common" remote="penguin" revision="celerity" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="yaap/vendor_qcom_opensource_vibrator" remote="github" revision="seventeen" />
 
 </manifest>
