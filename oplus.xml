@@ -17,6 +17,8 @@
   <project path="packages/apps/LunarisDolby" name="aosp-for-giulia/android_packages_apps_LunarisDolby" remote="github" revision="16" />
   
   <!-- Vendor -->
+  <project path="vendor/oplus/camera" name="ronardnx/proprietary_vendor_oplus_camera" remote="github" revision="17" />
+  <project path="vendor/viper4android" name="ronardnx/android_vendor_viper4android" remote="github" revision="main" />
   <project path="vendor/sony/dolby" name="aosp-for-giulia/proprietary_vendor_sony_dolby" remote="github" revision="16" />
   <project path="vendor/oneplus/ir" name="aosp-for-giulia/vendor_oneplus_ir" remote="github" revision="16" />
   <project path="vendor/qcom/opensource/libvmmem" name="oplus-8650-clo/android_vendor_qcom_opensource_libvmmem" remote="github" revision="calcite" />

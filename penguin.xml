@@ -9,26 +9,30 @@
   <remove-project name="platform/build/release" />
   <project path="build/release" name="Project-PenguinOS/android_build_release" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_build_soong" />
-  <project path="build/soong" name="Project-PenguinOS/build_soong" remote="penguin" revision="celerity">
+  <project path="build/soong" name="ronardnx/penguin_build_soong" remote="github" revision="celerity">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_av" />
-  <project path="frameworks/av" name="Project-PenguinOS/frameworks_av" remote="penguin" revision="celerity" />
+  <project path="frameworks/av" name="ronardnx/penguin_frameworks_av" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_frameworks_base" />
-  <project path="frameworks/base" name="Project-PenguinOS/frameworks_base" remote="penguin" revision="celerity" />
+  <project path="frameworks/base" name="ronardnx/penguin_frameworks_base" remote="github" revision="celerity" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="Project-PenguinOS/frameworks_libs_systemui" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_frameworks_native" />
-  <project path="frameworks/native" name="Project-PenguinOS/android_frameworks_native" remote="penguin" revision="celerity" />
+  <project path="frameworks/native" name="ronardnx/penguin_frameworks_native" remote="github" revision="celerity" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="Project-PenguinOS/frameworks_opt_telephony" remote="penguin" revision="celerity" />
 
   <!-- Hardware -->
   <remove-project name="AOSPA/android_hardware_interfaces" />
   <project path="hardware/interfaces" name="Project-PenguinOS/hardware_interfaces" remote="penguin" revision="celerity" />
+  <remove-project name="AOSPA/android_device_qcom_common" />
+  <project path="device/qcom/common" name="ronardnx/penguin_device_qcom_common" remote="github" revision="celerity" />
+  <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="ronardnx/penguin_device_qcom_sepolicy_vndr" remote="github" revision="calcite" />
 
   <!-- Modules -->
   <remove-project name="AOSPA/android_packages_modules_Bluetooth" />
@@ -48,7 +52,7 @@
   <project path="packages/apps/ParanoidSense" name="Project-PenguinOS/packages_apps_ParanoidSense" remote="penguin" revision="celerity" />
   <project path="packages/apps/PenguinSetupWizard" name="Project-PenguinOS/packages_apps_PenguinSetupWizard" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Project-PenguinOS/packages_apps_Settings" remote="penguin" revision="celerity" />
+  <project path="packages/apps/Settings" name="ronardnx/penguin_packages_apps_Settings" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_ThemePicker" />
   <project path="packages/apps/ThemePicker" name="Project-PenguinOS/packages_apps_ThemePicker" remote="penguin" revision="celerity" />
   <project path="packages/apps/Updater" name="Project-PenguinOS/packages_apps_Updater" remote="penguin" revision="celerity" />
@@ -82,7 +86,7 @@
 
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_aospa" />
-  <project path="vendor/aospa" name="Project-PenguinOS/android_vendor_aospa" remote="penguin" revision="celerity">
+  <project path="vendor/aospa" name="ronardnx/penguin_vendor_aospa" remote="github" revision="celerity">
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/custom-preference" name="Project-PenguinOS/vendor_custom-preference" remote="penguin" revision="celerity" />
@@ -90,5 +94,9 @@
   <project path="vendor/gms" name="PenguinOS/android_vendor_gms" remote="codeberg" revision="celerity" clone-depth="1" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="Project-PenguinOS/android_vendor_qcom_opensource_core-utils-vendor" remote="penguin" revision="celerity" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <project path="vendor/qcom/common" name="Project-PenguinOS/vendor_qcom_common" remote="penguin" revision="celerity" />
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="yaap/vendor_qcom_opensource_vibrator" remote="github" revision="seventeen" />
 
 </manifest>
