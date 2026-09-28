@@ -50,6 +50,7 @@
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
   <project path="packages/apps/Launcher3" name="Project-PenguinOS/packages_apps_Launcher3" remote="penguin" revision="celerity" />
   <project path="packages/apps/ParanoidSense" name="Project-PenguinOS/packages_apps_ParanoidSense" remote="penguin" revision="celerity" />
+  <project path="packages/apps/ParanoidGlyph" name="Project-PenguinOS/android_packages_apps_ParanoidGlyph" remote="penguin" revision="celerity" />
   <project path="packages/apps/PenguinSetupWizard" name="Project-PenguinOS/packages_apps_PenguinSetupWizard" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="ronardnx/penguin_packages_apps_Settings" remote="github" revision="celerity" />
