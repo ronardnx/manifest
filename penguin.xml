@@ -92,7 +92,7 @@
   </project>
   <project path="vendor/custom-preference" name="Project-PenguinOS/vendor_custom-preference" remote="penguin" revision="celerity" />
   <remove-project name="android_vendor_google_gms" />
-  <project path="vendor/gms" name="PenguinOS/android_vendor_gms" remote="codeberg" revision="celerity" clone-depth="1" />
+  <project path="vendor/aospa_gapps" name="ronardnx/aospa_gapps" remote="github" revision="celerity" />
   <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
   <project path="vendor/qcom/opensource/core-utils-vendor" name="Project-PenguinOS/android_vendor_qcom_opensource_core-utils-vendor" remote="penguin" revision="celerity" />
   <remove-project name="proprietary_vendor_qcom_common" />
