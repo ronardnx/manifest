@@ -45,6 +45,8 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Dialer" name="Project-PenguinOS/penguin_packages_apps_Dialer" remote="penguin" revision="celerity" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="ronardnx/penguin_packages_apps_DocumentsUI" remote="github" revision="celerity" />
   <project path="packages/apps/GameSpace" name="Project-PenguinOS/packages_apps_GameSpace" remote="penguin" revision="celerity" />
   <project path="packages/apps/LMOFreeform" name="Project-PenguinOS/packages_apps_LMOFreeform" remote="penguin" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_Launcher3" />
@@ -57,8 +59,23 @@
   <remove-project name="AOSPA/android_packages_apps_ThemePicker" />
   <project path="packages/apps/ThemePicker" name="Project-PenguinOS/packages_apps_ThemePicker" remote="penguin" revision="celerity" />
   <project path="packages/apps/Updater" name="Project-PenguinOS/packages_apps_Updater" remote="penguin" revision="celerity" />
+  <project path="packages/apps/Via" name="ronardnx/penguin_packages_apps_Via" remote="github" revision="celerity" />
   <remove-project name="AOSPA/android_packages_apps_WallpaperPicker2" />
   <project path="packages/apps/WallpaperPicker2" name="Project-PenguinOS/packages_apps_WallpaperPicker2" remote="penguin" revision="celerity" />
+
+  <!-- LineageOS Packages -->
+  <remove-project name="platform/packages/apps/Calendar" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="github" revision="lineage-23.2" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" remote="github" revision="lineage-23.2" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" remote="github" revision="lineage-23.2" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" remote="github" revision="lineage-23.2" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="github" revision="lineage-23.2" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" remote="github" revision="lineage-23.2" />
+
 
   <!-- Services -->
   <project path="packages/services/OmniJaw" name="Project-PenguinOS/packages_services_OmniJaw" remote="penguin" revision="celerity" />
