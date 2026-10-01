@@ -52,9 +52,6 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/wlan-devicetree" />
 
-  <!-- Packages -->
-  <remove-project name="platform/packages/apps/Gallery2" />
-
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/6.1/arm64"/>
   <remove-project name="kernel/prebuilts/6.1/x86-64"/>

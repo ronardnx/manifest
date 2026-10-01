@@ -75,7 +75,9 @@
   <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="github" revision="lineage-23.2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" remote="github" revision="lineage-23.2" />
-
+  <project path="packages/apps/Glimpse" name="LineageOS/android_packages_apps_Glimpse" remote="github" revision="lineage-23.2" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="github" revision="lineage-23.2" />
 
   <!-- Services -->
   <project path="packages/services/OmniJaw" name="Project-PenguinOS/packages_services_OmniJaw" remote="penguin" revision="celerity" />
