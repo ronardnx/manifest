@@ -15,6 +15,7 @@
   
   <!-- Packages -->
   <project path="packages/apps/LunarisDolby" name="aosp-for-giulia/android_packages_apps_LunarisDolby" remote="github" revision="16" />
+  <project path="packages/apps/BypassCharge" name="yaap/packages_apps_BypassCharge" remote="github" revision="sixteen" />
   
   <!-- Vendor -->
   <project path="vendor/oplus/camera" name="ronardnx/proprietary_vendor_oplus_camera" remote="github" revision="17" />
